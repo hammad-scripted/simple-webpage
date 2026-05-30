@@ -1,8 +1,8 @@
-import React from 'react';
+﻿import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="text-gray-400 bg-gray-900 body-font">
+    <footer className="text-gray-300 bg-site-dark body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <svg
@@ -20,18 +20,18 @@ const Footer = () => {
             <path d="M2 12l10 5 10-5"></path>
           </svg>
 
-          <span className="ml-3 text-xl">Tailblocks</span>
+          <span className="ml-3 text-xl">Aurora Studio</span>
         </a>
 
-        <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-          © 2026 Tailblocks —
+n        <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
+          © 2026 Aurora Studio —
           <a
-            href="https://twitter.com/knyttneve"
+            href="#"
             className="text-gray-500 ml-1"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @knyttneve
+            Built with care
           </a>
         </p>
 

@@ -1,8 +1,9 @@
-@import 'tailwindcss';
+﻿@import '"'tailwindcss'"';
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --accent: #7c3aed;
 }
 
 @theme inline {
@@ -14,13 +15,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #071029;
+    --foreground: #dfe7ee;
+    --accent: #7c3aed;
+    --muted: #9aa7b2;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: '"'Segoe UI'"', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+n.bg-site-dark { background-color: var(--background) !important; color: var(--foreground) !important; }
+a { color: var(--accent); }
+a:hover { opacity: .9; }

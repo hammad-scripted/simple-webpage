@@ -1,9 +1,9 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 const Header = () => {
   return (
     <div>
-      <header className="text-gray-400 bg-gray-900 body-font">
+      <header className="text-gray-300 bg-site-dark body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Link
             href="/"
@@ -21,7 +21,7 @@ const Header = () => {
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span className="ml-3 text-xl">Tailblocks</span>
+            <span className="ml-3 text-xl">Aurora Studio</span>
           </Link>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <Link className="mr-5 hover:text-white" href="/about">
@@ -35,7 +35,7 @@ const Header = () => {
             </Link>
           </nav>
           <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-            Button
+            Get Started
             <svg
               fill="none"
               stroke="currentColor"

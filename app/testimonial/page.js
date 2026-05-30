@@ -1,9 +1,9 @@
-import React from 'react';
+﻿import React from 'react';
 
 const page = () => {
   return (
     <div>
-      <section className="text-gray-400 bg-gray-900 body-font">
+      <section className="text-gray-400 bg-site-dark body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -11,14 +11,12 @@ const page = () => {
                 <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
-                  src="https://dummyimage.com/302x302"
+                  src="/images/img1.jpg"
                 />
 
                 <p className="leading-relaxed">
-                  Edison bulb retro cloud bread echo park, helvetica stumptown
-                  taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                  ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                  adaptogen squid fanny pack vaporware.
+                  "Aurora Studio transformed our homepage — the site feels faster
+                  and our users engage more. The team was thoughtful and fast."
                 </p>
 
                 <span className="inline-block h-1 w-10 rounded bg-purple-500 mt-6 mb-4"></span>
@@ -36,14 +34,12 @@ const page = () => {
                 <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
-                  src="https://dummyimage.com/300x300"
+                  src="/images/img2.jpg"
                 />
 
                 <p className="leading-relaxed">
-                  Edison bulb retro cloud bread echo park, helvetica stumptown
-                  taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                  ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                  adaptogen squid fanny pack vaporware.
+                  "Great collaboration — Aurora helped us define our priorities
+                  and shipped a beautiful responsive experience."
                 </p>
 
                 <span className="inline-block h-1 w-10 rounded bg-purple-500 mt-6 mb-4"></span>
@@ -61,14 +57,12 @@ const page = () => {
                 <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
-                  src="https://dummyimage.com/305x305"
+                  src="/images/img3.jpg"
                 />
 
                 <p className="leading-relaxed">
-                  Edison bulb retro cloud bread echo park, helvetica stumptown
-                  taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                  ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                  adaptogen squid fanny pack vaporware.
+                  "Fast, pragmatic, and design-forward. Couldn't recommend them
+                  enough."
                 </p>
 
                 <span className="inline-block h-1 w-10 rounded bg-purple-500 mt-6 mb-4"></span>
